@@ -1,0 +1,26 @@
+{
+  "name": "ufc-predictor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://rogerinoa815-ux.github.io/ufc-predictor",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "gh-pages": "^6.3.0"
+  }
+}
