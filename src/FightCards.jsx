@@ -54,8 +54,8 @@ export default function FightCard() {
         label="Last Fight"
         f1="TOPURIA"
         f2="OLIVEIRA"
-        f1img="/ilia_topuria.png"
-        f2img="/charles_oliveira.png"
+        f1img="/ufc-predictor/ilia_topuria.png"
+        f2img="/ufc-predictor/charles_oliveira.png"
         event="UFC 317"
         date="JUN. 28, 2025"
         win={true}
@@ -64,8 +64,8 @@ export default function FightCard() {
         label="Upcoming Fight"
         f1="TOPURIA"
         f2="GAETHJE"
-        f1img="/ilia_topuria.png"
-        f2img="/justin_gaethje.png"
+        f1img="/ufc-predictor/ilia_topuria.png"
+        f2img="/ufc-predictor/justin_gaethje.png"
         event="UFC FREEDOM 250"
         date="JUN. 14, 2026"
         win={false}
