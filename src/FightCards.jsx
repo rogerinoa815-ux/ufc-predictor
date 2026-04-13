@@ -52,24 +52,25 @@ export default function FightCard() {
     <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "0 40px 40px" }}>
       <Card
         label="Last Fight"
-        f1="TOPURIA"
-        f2="OLIVEIRA"
-        f1img="/ufc-predictor/ilia_topuria.png"
-        f2img="/ufc-predictor/charles_oliveira.png"
-        event="UFC 317"
-        date="JUN. 28, 2025"
-        win={true}
-      />
+         f1="TOPURIA"
+         f2="OLIVEIRA"
+         f1img={`${import.meta.env.BASE_URL}ilia_topuria.png`}
+         f2img={`${import.meta.env.BASE_URL}charles_oliveira.png`}
+         event="UFC 317"
+         date="JUN. 28, 2025"
+         win={true}/>
+
+
       <Card
         label="Upcoming Fight"
         f1="TOPURIA"
         f2="GAETHJE"
-        f1img="/ufc-predictor/ilia_topuria.png"
-        f2img="/ufc-predictor/justin_gaethje.png"
+        f1img={`${import.meta.env.BASE_URL}ilia_topuria.png`}
+        f2img={`${import.meta.env.BASE_URL}justin_gaethje.png`}
         event="UFC FREEDOM 250"
         date="JUN. 14, 2026"
-        win={false}
-      />
+        win={false}/>
+
     </div>
   )
 }
